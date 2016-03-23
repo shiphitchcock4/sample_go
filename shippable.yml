@@ -39,4 +39,4 @@ build:
     - mkdir -p shippable/testresults
     - mkdir -p shippable/codecoverage
     - go test -coverprofile=coverage.txt -covermode count ./
-    - $GOPATH/bin/gocover-cobertura < coverage.txt > shippable/codecoverage/coverage.xml
+    - $GOPATH/bin/gocover-cobertura < coverage.txt > shippable/codecoverage/coverage.xml 
